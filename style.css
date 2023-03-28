@@ -133,10 +133,12 @@ a:hover{
 
 .hoverGauche .plage{
     width:70%;
+    z-index:2;
 }
 
 .hoverGauche .montagne{
     width:30%;
+     z-index:2;
 }
 
 .hoverDroite .plage{
@@ -145,4 +147,20 @@ a:hover{
 
 .hoverDroite .montagne{
     width:70%;
+}
+
+@media screen and (max-width:520px){
+    h1{
+        font-size:calc(25px + 2vw);
+    }
+}
+
+@media screen and (max-width:285px){
+    h1{
+        font-size:calc(20px + 1vw);
+    }
+
+    a{
+        padding:2.5px 7px;
+    }
 }
