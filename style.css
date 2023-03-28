@@ -138,7 +138,7 @@ a:hover{
 
 .hoverGauche .montagne{
     width:30%;
-     z-index:2;
+    
 }
 
 .hoverDroite .plage{
@@ -147,6 +147,7 @@ a:hover{
 
 .hoverDroite .montagne{
     width:70%;
+    z-index:2;
 }
 
 @media screen and (max-width:520px){
